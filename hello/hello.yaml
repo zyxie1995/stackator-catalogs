@@ -9,9 +9,6 @@ spec:
     repoURL: ghcr.io/stefanprodan/charts
     targetRevision: 6.6.0
     chart: podinfo
-    helm:
-        ingress:
-          enabled: true
   destination:
     server: https://kubernetes.default.svc
     namespace: test
